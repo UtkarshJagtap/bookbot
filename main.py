@@ -7,6 +7,7 @@ def main():
     arg = sys.argv
     if len(arg) != 2:
         print("Usage: python3 main.py <path_to_book>")
+        print(" available books are \n books/frankenstein.txt \n books/mobydick.txt \n books/prideandprejudice.txt")
         sys.exit(1)
     else:
         book_txt = get_book_text(arg[1])
